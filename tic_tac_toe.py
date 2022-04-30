@@ -22,6 +22,7 @@ def main():
                 num_of_x += 1
         is_a_draw = num_of_o + num_of_x
         if is_a_draw == 16:
+            print("It's a draw.")
             break
    
     draw_board(board_nums)
